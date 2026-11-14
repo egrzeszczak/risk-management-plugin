@@ -2,24 +2,24 @@
 name: set-objectives
 description: Start the risk management process in the project by structuring the context and objectives into a data model provided by the plugin. Use this skill when the user plans to start a project and is interested in managing risks. The first step is to structure the objectives and context for the second step, which is handled by the skill called 'identify-risks'. 
 metadata:
-  version: 1.1.2
+  version: 1.2.0
   author: egrzeszczak
 ---
 
-# set-objectives
+# Skill: `set-objectives`
 
-## description
+### Description
 
 Answers the first question of the risk management process described in `risk_management_process.md` (available by invoking the `/use-shared-resources` skill in this plugin). This skill takes the `context` and `objectives` described in the input by the user, and structures them into the `context` minified JSON model available in `context_model.md` (available by invoking the `/use-shared-resources` skill in this plugin) and the `objective` minified JSON model in `objective_model.md` (available by invoking the `/use-shared-resources` skill in this plugin). This model will be later used by other skills in this plugin.
 
-## arguments
+### Arguments
 
 |name|requirement|description|
 |-|:-:|-|
 |`objectives`|REQUIRED|contains requirements about what needs to be achieved|
 |`context`|REQUIRED|contains situation, environment, scope, constraints and additional information that will be taken into account later on|
 
-## steps
+### Procedure
 
 1. skill MUST use the RFC 2119 standard when processing requirements (in other words - the user's `objectives`),
 1. skill MUST read and understand the `objectives` and the `context` supplied by the user,

@@ -3,7 +3,7 @@ This plugin was created for use with LLMs to facilitate risk management in a pro
 * Q1. What am I trying to achieve?
 * Q2. What might affect my objectives?
 * Q3. Which risks are the most important to me?
-* Q4. What should I do most important ones?
+* Q4. What should I do about most important ones?
 * Q5. Did it work?
 * Q6. What has changed?
 

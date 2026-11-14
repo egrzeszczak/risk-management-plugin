@@ -23,6 +23,18 @@ If you'd like know more about risk management, I highly recommend these resource
 Additional resources:
 * https://www.iso.org/standard/31000
 
+### Skills
+
+|Skill name|Description|
+|-|-|
+|`how-to-manage-risks`|Explains each step of the risk management and which skills to use next. Equivalent of using `--help` in certain tools.|
+|`establish-context`|Allows to structurize detailed information about the project for later use. Generates `context` in `CONTEXT.json`.|
+|`set-direction`|Suggests what objectives to acquire based on `context`. Select those worth pursuing. Generates `direction` in `DIRECTION.json`.|
+|`set-objectives`|Structurize your `objectives` based on `context` (and OPTIONALLY on `direction`).|
+|`identify-risks`|TODO: Identify the effects of uncertainties on your defined objectives within the context.|
+|`assess-risks`|TODO: Assess which risks matter the most.|
+|`use-shared-resources`|Internal utility skill, that is invoked by other skills in this plugin to share resources, specifically Markdown documents containing instructions, data models, examples, etc.|
+
 ### How to use?
 
 1. Get the current version of the plugin from the [Releases page on GitHub](https://github.com/egrzeszczak/risk-management-plugin/tags).

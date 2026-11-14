@@ -1,26 +1,28 @@
 ---
 name: identify-risks
-description: Identify, describe and categorize risks that may affect a set of objectives within a context. Use whenever the user asks what could go wrong, what might affect objectives, project or plan, or wants a risk register or risk identification. Two required arguments MUST be supplied - objectives and context. The count argument is RECOMMENDED.
+description: Identify, describe and categorize risks that may affect a set of objectives within a context. Use whenever the user asks what could go wrong, what might affect objectives, project or plan, or wants a risk register or risk identification. Two required arguments MUST be supplied - objectives and context. The count argument is OPTIONAL.
 metadata:
-  version: 1.1.2
+  version: 1.2.0
   author: egrzeszczak
 ---
 
-# identify-risks
+# Skill: `identify-risks`
 
-## description
+### Description
 
-Answering the second question of the risk management process described in `risk_management_process.md` (available by invoking the `/use-shared-resources` skill in this plugin). Uses the `risk_data_model.md` (available by invoking the `/use-shared-resources` skill in this plugin).
+Identify, describe and categorize risks that may affect a set of `objectives` within a `context`. Use whenever the user asks what could go wrong, what might affect objectives, project or plan, or wants a risk register or risk identification. Two required arguments MUST be supplied - `objectives` and `context`. The count argument is OPTIONAL.
 
-## arguments
+This skill should answer the second question of the risk management process described in `risk_management_process.md` (available by invoking the `/use-shared-resources` skill in this plugin), which is "What might affect my objectives?". Uses the `risk_data_model.md` (available by invoking the `/use-shared-resources` skill in this plugin).
+
+### Arguments
 
 |name|requirement|description|
 |-|:-:|-|
-|`objectives`|REQUIRED|contains requirements about what needs to be achieved. `objectives` MUST be structed in accordance with `objective_model.md` available by invoking the `/use-shared-resources` skill in this plugin|
-|`context`|REQUIRED|contains situation, environment, scope, constraints. `context` MUST be structed in accordance with `context_model.md` available by invoking the `/use-shared-resources` skill in this plugin|
-|`count`|RECOMMENDED|SHOULD be provided. `count` is the ammount of risks to infer by the skill. by default the count is 10.|
+|`objectives`|REQUIRED|contains requirements about what needs to be achieved. `objectives` MUST be structed in accordance with `objective_model.md` available by invoking the `/use-shared-resources` skill in this plugin. Usually delivered in a `OBJECTIVES.json` file.|
+|`context`|REQUIRED|Contains situation, environment, scope, constraints and any other detailed information about the project. `context` MUST be structed in accordance with `context_model.md` available by invoking the `/use-shared-resources` skill in this plugin. Usually delivered in a `CONTEXT.json` file.|
+|`count`|OPTIONAL|CAN be provided. `count` is the ammount of risks to infer by the skill. By default the count is 10.|
 
-## steps
+### Procedure
 
 1. the skill MUST NOT change the objectives (Q1) or the context, assess or rank risks (Q3), plan strategies (Q4), review the risks (Q5) or update risks (Q6). the scope of the skill is only identifying the risks (Q2).
 1. if a required argument is missing, vague or not compliant with the format, the skill MUST ask the user before continuing. 

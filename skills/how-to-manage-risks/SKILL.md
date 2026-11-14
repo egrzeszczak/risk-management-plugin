@@ -2,7 +2,7 @@
 name: how-to-manage-risks
 description: A skill to use by the model to explain each step of the risk management process to the user and which skills to use next. Use when the user asks how to proceed with risk management steps or when user asks how to use this plugin in the first place.
 metadata:
-  version: 1.1.2
+  version: 1.2.0
   author: egrzeszczak
 ---
 
@@ -16,7 +16,7 @@ A skill to use by the model to explain each step of the risk management process 
 
 There are neither required arguments nor optional arguments required for this skill.
 
-### Usage
+### Procedure
 
 If user wants to know the general information about the plugin itself or has just invoked `/how-to-manage-risks` without additional information, present the contents of `help_on_plugin.md` document (available by invoking the `/use-shared-resources` skill in this plugin) to the user.
 
