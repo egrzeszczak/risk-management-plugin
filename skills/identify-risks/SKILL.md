@@ -2,7 +2,7 @@
 name: identify-risks
 description: Identify, describe and categorize risks that may affect a set of objectives within a context. Use whenever the user asks what could go wrong, what might affect objectives, project or plan, or wants a risk register or risk identification. Two required arguments MUST be supplied - objectives and context. The count argument is RECOMMENDED.
 metadata:
-  version: 1.1.1
+  version: 1.1.2
   author: egrzeszczak
 ---
 

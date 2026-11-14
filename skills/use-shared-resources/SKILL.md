@@ -2,7 +2,7 @@
 name: use-shared-resources
 description: Internal utility skill for the plugin used by others skills. Mainly used to fetch resources shared across the plugin. When there is a reference to a shared resource, the skill will invoke this skill to get the information it needs. 
 metadata:
-  version: 1.1.1
+  version: 1.1.2
   author: egrzeszczak
 ---
 

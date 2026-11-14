@@ -2,7 +2,7 @@
 name: establish-context
 description: A skill to use by the model to structurize the context into a JSON data model from information given my the user. 
 metadata:
-  version: 1.1.1
+  version: 1.1.2
   author: egrzeszczak
 ---
 
@@ -29,3 +29,4 @@ A skill to use by the model to structurize the context into a JSON data model fr
     1. **Return a CONTEXT.json** file containing the structurized context anyway.
     1. **Return a warning to the user** that insufficient information has been provided. 
     1. **Suggest which questions should the user answer** to make the context more detailed.
+1. Store the `CONTEXT.json` in the project's memory if possible. Replace the existing `CONTEXT.json` if it already exists.
