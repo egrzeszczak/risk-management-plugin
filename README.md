@@ -25,6 +25,6 @@ Additional resources:
 
 ### How to use?
 
-1. Get the plugin from the Releases page on GitHub.
-2. Load the plugin into your AI tools.
+1. Get the current version of the plugin from the [Releases page on GitHub](https://github.com/egrzeszczak/risk-management-plugin/tags).
+2. Load the plugin into your AI tool.
 3. Invoke the `/how-to-use` skill in the conversation.

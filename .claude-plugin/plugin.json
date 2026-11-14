@@ -1,6 +1,6 @@
 {
   "name": "risk-management-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Skills for facilitating the risk management process in a project based on six simple questions",
   "author": { "name": "egrzeszczak" }
 }

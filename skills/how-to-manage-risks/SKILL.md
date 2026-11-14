@@ -1,16 +1,16 @@
 ---
-name: how-to-use
-description: A utility skill to use by the model to explain each step of the risk management process to the user and which skills to use next. Use when the user asks how to proceed with risk management steps.
+name: how-to-manage-risks
+description: A skill to use by the model to explain each step of the risk management process to the user and which skills to use next. Use when the user asks how to proceed with risk management steps or when user asks how to use this plugin in the first place.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
   author: egrzeszczak
 ---
 
-# Skill: `how-to-use`
+# Skill: `how-to-manage-risks`
 
 ### Description
 
-A utility skill to use by the model to explain each step of the risk management process to the user and which skills to use next. Use when the user asks how to proceed with risk management steps.
+A skill to use by the model to explain each step of the risk management process to the user and which skills to use next. Use when the user asks how to proceed with risk management steps or when user asks how to use this plugin in the first place.
 
 ### Arguments
 
@@ -18,7 +18,7 @@ There are neither required arguments nor optional arguments required for this sk
 
 ### Usage
 
-If user wants to know the general information about the plugin itself, present the contents of `help_on_plugin.md` document (available by invoking the `/use-shared-resources` skill in this plugin) to the user.
+If user wants to know the general information about the plugin itself or has just invoked `/how-to-manage-risks` without additional information, present the contents of `help_on_plugin.md` document (available by invoking the `/use-shared-resources` skill in this plugin) to the user.
 
 If user wants to start the risk management process, the first thing he establish is the `context`. On how to establish a context present the contents of `help_on_establishing_context.md` document (available by invoking the `/use-shared-resources` skill in this plugin) to the user.
 
