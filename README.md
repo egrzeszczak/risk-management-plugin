@@ -18,7 +18,7 @@ Plugin for use with LLMs to facilitate risk management in a project. The risk ma
 
 |Skill name|Description|
 |-|-|
-|`how-to-manage-risks`|Explains each step of the risk management and which skills to use next. Equivalent of using `--help` in certain tools.|
+|`help`|Explains each step of the risk management and which skills to use next. Equivalent of `--help`.|
 |`establish-context`|Allows to structurize detailed information about the project for later use. Generates `context` in `CONTEXT.json`.|
 |`set-direction`|Suggests what objectives to acquire based on `context`. Select those worth pursuing. Generates `direction` in `DIRECTION.json`.|
 |`set-objectives`|Structurize your `objectives` based on `context` (and OPTIONALLY on `direction`). Generates `objectives` in `OBJETIVES.json`.|
