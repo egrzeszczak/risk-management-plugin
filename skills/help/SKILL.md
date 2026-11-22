@@ -2,7 +2,7 @@
 name: help
 description: A skill to use by the model to explain each step of the risk management process to the user and which skills to use next. Use when the user asks how to proceed with risk management steps or when user asks how to use this plugin in the first place.
 metadata:
-  version: 1.3.0
+  version: 1.3.1
   author: egrzeszczak
 ---
 

@@ -14,6 +14,8 @@ Plugin for use with LLMs to facilitate risk management in a project. The risk ma
 * Q5. Did it work?
 * Q6. What has changed?
 
+To effectively manage risks there you have to provide the context of the project to the model. Based on the context the plugin will also help you establish the direction and objectives if you haven't done that yet. 
+
 ### Skills
 
 |Skill name|Description|
