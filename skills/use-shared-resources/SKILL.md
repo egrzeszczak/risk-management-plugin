@@ -2,7 +2,7 @@
 name: use-shared-resources
 description: Internal utility skill, that is invoked by other skills in this plugin to share resources, specifically Markdown documents containing instructions, data models, examples, etc.
 metadata:
-  version: 1.2.1
+  version: 1.2.2
   author: egrzeszczak
 ---
 
