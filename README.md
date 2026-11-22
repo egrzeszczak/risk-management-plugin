@@ -31,7 +31,7 @@ Plugin for use with LLMs to facilitate risk management in a project. The risk ma
 
 1. Get the latest version of the plugin from the [Releases page on GitHub](https://github.com/egrzeszczak/risk-management-plugin/tags).
 2. Load the plugin into your AI environment.
-3. Invoke the `/how-to-manage-risk` skill in the conversation.
+3. Instruct the model to `"/help with risk management"`.
 
 ### Additional resources
 
