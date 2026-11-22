@@ -2,7 +2,7 @@
 name: set-direction
 description: Guide the user on what objectives to acquire based on the context provided and allow him to select those which he deems worth pursuing. 
 metadata:
-  version: 1.2.0
+  version: 1.2.1
   author: egrzeszczak
 ---
 

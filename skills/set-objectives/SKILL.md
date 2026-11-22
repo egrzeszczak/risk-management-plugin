@@ -2,7 +2,7 @@
 name: set-objectives
 description: Start the risk management process in the project by structuring the context and objectives into a data model provided by the plugin. Use this skill when the user plans to start a project and is interested in managing risks. The first step is to structure the objectives and context for the second step, which is handled by the skill called 'identify-risks'. 
 metadata:
-  version: 1.2.0
+  version: 1.2.1
   author: egrzeszczak
 ---
 
