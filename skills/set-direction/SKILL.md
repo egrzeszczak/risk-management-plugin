@@ -2,7 +2,7 @@
 name: set-direction
 description: Guide the user on what objectives to acquire based on the context provided and allow him to select those which he deems worth pursuing. 
 metadata:
-  version: 1.2.2
+  version: 1.3.0
   author: egrzeszczak
 ---
 
@@ -23,7 +23,7 @@ A direction is a defined set of objectives with similar propevrties. Guide the u
 
 |Name|Description|
 |-|-|
-|`DIRECTION.js`|Structurized direction in compliance with the direction data model available in `direction_data_model.md` (available by invoking the `/use-shared-resources` skill in this plugin), preferably stored in projects memory and returned to the user in chat as well.|
+|`DIRECTION.js`|Structurized direction in compliance with the direction data model available in `resources/data-models/direction/model.md` (available by invoking the `/use-shared-resources` skill in this plugin), preferably stored in projects memory and returned to the user in chat as well.|
 
 ### Procedure
 
@@ -35,4 +35,4 @@ A direction is a defined set of objectives with similar propevrties. Guide the u
     1. **Display these suggestions as a set of multiselect options** for the user to select from.
     1. User selects the objective suggestions and sends them as a reply to the skill.
     1. **List the suggestions out** to the user
-    1. **Provide a file `DIRECTION.json` with the selected possible objectives** structured in the direction data model available in `direction_data_model.md` (available by invoking the `/use-shared-resources` skill in this plugin).
+    1. **Provide a file `DIRECTION.json` with the selected possible objectives** structured in the direction data model available in `resources/data-models/direction/model.md` (available by invoking the `/use-shared-resources` skill in this plugin).

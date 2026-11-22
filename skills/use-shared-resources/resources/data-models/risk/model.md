@@ -1,4 +1,4 @@
-# risk_model.md
+# Data Model: `risk`
 
 The common model for the risk.
 

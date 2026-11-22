@@ -1,4 +1,4 @@
-# objective_model.md
+# Data Model: `objective`
 
 The common model for the objectives.
 

@@ -1,4 +1,4 @@
-# Data model: `direction`
+# Data Model: `direction`
 
 Data model for the `direction` object used in risk management process.
 
