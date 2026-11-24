@@ -1,8 +1,8 @@
 # Data Model: `objective`
 
-The model for a objective.
+The model for an objective.
 
-## Structure
+### Structure
 
 |Field name|Type|Description|
 |-|-|-|
@@ -12,16 +12,20 @@ The model for a objective.
 |`objective.description`|text|Description for the objective.<br><br>EXAMPLE VALUE: "Our know-how MUST be kept secret, since this is how we achieve our other goals, such as securing stable income. If the know-how is revealed to the public, it would have a significant impact on our project."|
 |`objective.priority`|keyword|Priority of the objectives.<br><br>RECOMMENDED values: `critical`, `high`, `medium`, `low`, `lowest`<br>example: `critical`|
 
-## examples
+### Example
 
-### example A
-
-```json
-[{"objective.id":"OBJ-4","objective.name":"Know-how MUST be kept secret","objective.description":"Our know-how MUST be kept secret, since this is how we achieve our other goals, such as securing stable income. If the know-how is revealed to the public, it would have a significant impact on our project.","objective.priority":"critical"}]
-```
-
-### example B
+#### A
 
 ```json
-[{"objective.id":"OBJ-1","objective.name":"ability MUST NOT be disclosed","objective.description":"the ability MUST NOT be disclosed to anyone under any circumstances. we MUST NOT leave anything that identifies our identity, and MUST NOT say or do anything that raises questions or suggests we possess the ability. no organisation SHOULD ever discover the ability.","objective.priority":"critical"},{"objective.id":"OBJ-2","objective.name":"safe travel to popular cities","objective.description":"we SHOULD travel safely to the most popular cities in the world (tokyo, new york, los angeles, etc.).","objective.priority":"medium"}]
+[
+    {
+        "type": "objective",
+        "objective": {
+            "id": "OBJ-4",
+            "name": "Know-how MUST be kept secret",
+            "description": "Our know-how MUST be kept secret, since this is how we achieve our other goals, such as securing stable income. If the know-how is revealed to the public, it would have a significant impact on our project.",
+            "priority": "critical"
+        }
+    }
+]
 ```
