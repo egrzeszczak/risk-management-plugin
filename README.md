@@ -20,18 +20,21 @@ To effectively manage risks there you have to provide the context of the project
 
 |Skill name|Description|
 |-|-|
+|**Invokable skills**||
 |`help`|Explains each step of the risk management and which skills to use next. Equivalent of `--help`.|
-|`establish-context`|Allows to structurize detailed information about the project for later use. Generates `context` in `CONTEXT.json`.|
+|`establish-context`|Allows to structurize detailed information about the project. Generates `context` in `CONTEXT.json`.|
 |`set-direction`|Suggests what objectives to acquire based on `context`. Select those worth pursuing. Generates `direction` in `DIRECTION.json`.|
 |`set-objectives`|Structurize your `objectives` based on `context` (and OPTIONALLY on `direction`). Generates `objectives` in `OBJETIVES.json`. Provides answers to **Q1**.|
-|`identify-risks`|TODO: Identify the effects of uncertainties on your defined objectives within the context. Generates `risks` in `RISKS.json`. Answers **Q2**.|
-|`assess-risks`|TODO: Assess which risks matter the most. Updates `RISKS.json`. Answers **Q3**.|
-|`plan-risk-strategies`|TODO: Plan risks strategies/responses. Provides answers to **Q4**. Generates `responses` `RESPONSES.json`|
+|`identify-risks`|Identify the effects of uncertainties based on your defined objectives and context. Generates `risks`. Each risk is stored in dedicated risk file (e.g. `RISK-13.json`). Answers **Q2**.|
+|`assess-risk`|Infer the impact and the probability of a selected risk. Determine which risks matter the most. Updates this risk's `RISK-n.json` file. Answers **Q3**.|
+|⌞ `assess-risk-probability`|Infer the probability of a selected risk. Updates `RISK-n.json` file.|
+|⌞ `assess-risk-impact`|Infer the impact of a selected risk. Updates `RISK-n.json` file.|
+|**Internal skills**||
 |`use-shared-resources`|Internal utility skill, that is invoked by other skills in this plugin to access shared resources, specifically Markdown documents containing instructions, data models, examples, etc.|
 
 ### How to use?
 
-1. Get the latest version of the plugin from the [Releases page on GitHub](https://github.com/egrzeszczak/risk-management-plugin/tags).
+1. Get the latest version of the plugin from the [Tags page on GitHub](https://github.com/egrzeszczak/risk-management-plugin/tags).
 2. Load the plugin into your AI environment.
 3. Instruct the model to `"/help with risk management"`.
 
