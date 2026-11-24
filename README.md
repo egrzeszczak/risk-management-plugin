@@ -26,9 +26,7 @@ To effectively manage risks there you have to provide the context of the project
 |`set-direction`|Suggests what objectives to acquire based on `context`. Select those worth pursuing. Generates `direction` in `DIRECTION.json`.|
 |`set-objectives`|Structurize your `objectives` based on `context` (and OPTIONALLY on `direction`). Generates `objectives` in `OBJETIVES.json`. Provides answers to **Q1**.|
 |`identify-risks`|Identify the effects of uncertainties based on your defined objectives and context. Generates `risks`. Each risk is stored in dedicated risk file (e.g. `RISK-13.json`). Answers **Q2**.|
-|`assess-risk`|Infer the impact and the probability of a selected risk. Determine which risks matter the most. Updates this risk's `RISK-n.json` file. Answers **Q3**.|
-|⌞ `assess-risk-probability`|Infer the probability of a selected risk. Updates `RISK-n.json` file.|
-|⌞ `assess-risk-impact`|Infer the impact of a selected risk. Updates `RISK-n.json` file.|
+|`assess-risk`|Infer the impact and the probability of a selected risk. Determine which risks matter the most. Updates this risk's `RISK-n.json` file. Answers **Q3**. <br><br> ⌞ `assess-risk-probability` infers the probability of selected risk. Updates `RISK-n.json` file. <br>⌞ `assess-risk-impact` infers the impact of selected risk. Updates `RISK-n.json` file.|
 |**Internal skills**||
 |`use-shared-resources`|Internal utility skill, that is invoked by other skills in this plugin to access shared resources, specifically Markdown documents containing instructions, data models, examples, etc.|
 
