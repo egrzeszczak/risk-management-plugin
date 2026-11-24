@@ -32,6 +32,9 @@ To effectively manage risks there you have to provide the context of the project
 
 ### How to use?
 
+> [!WARNING]
+> This is a work in progress, it is NOT RECOMMENDED to use in production.
+
 1. Get the latest version of the plugin from the [Tags page on GitHub](https://github.com/egrzeszczak/risk-management-plugin/tags).
 2. Load the plugin into your AI environment.
 3. Instruct the model to `"/help with risk management"`.
