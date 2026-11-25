@@ -29,3 +29,4 @@ Skill that creates a custom scoring system for objective priorities, risk probab
     1. **risk impact** scoring mapping in `scoring.impact`, 
     1. and **risk probability** mapping in `scoring.probability`
 1. If user has not provided labeling or scoring for either objective, impact or probabilities, the skill SHOULD copy the default values from `resources/data-models/context/scoring/default/SCORING.json` available by invoking the `use-shared-resources` skill for missing mappings.
+1. Finally, skill MUST then output the scoring system into a separate file called `SCORING.json` and return it to the user.
