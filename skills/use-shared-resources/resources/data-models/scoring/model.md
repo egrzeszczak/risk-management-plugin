@@ -57,7 +57,7 @@ Good example:
                 "score": 5
             },
             {
-                "name": "substancial",
+                "name": "substantial",
                 "score": 4
             },
             {
