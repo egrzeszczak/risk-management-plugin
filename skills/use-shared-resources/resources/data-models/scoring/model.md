@@ -13,7 +13,7 @@ A qualitative system for scoring objectives, risk impacts and risk probabilities
 
 ### Rules
 
-IMPORTANT! The keys of objects for `scoring.objective`, `scoring.impact` and `scoring.probability` in this model SHOULD match the /[a-z_]+/ regular expression. It is NOT RECOMMENDED to use any other characters in the keys of the object.
+IMPORTANT! The keys of objects for `scoring.objective`, `scoring.impact` and `scoring.probability` in this model SHOULD match the `/[a-z_]+/` regular expression. It is NOT RECOMMENDED to use any other characters in the keys of the object.
 
 Bad example:
 ```json

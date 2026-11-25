@@ -2,7 +2,7 @@
 name: set-scoring-system
 description: Skill that creates a custom scoring system for objective priorities, risk probability and risk impact definitions.
 metadata:
-  version: 1.3.2
+  version: 1.3.3
   author: egrzeszczak
 ---
 

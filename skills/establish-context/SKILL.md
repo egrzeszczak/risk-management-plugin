@@ -2,7 +2,7 @@
 name: establish-context
 description: Allows the user to structurize detailed information about the project into context in JSON format for risk management purposes.
 metadata:
-  version: 1.3.2
+  version: 1.3.3
   author: egrzeszczak
 ---
 
